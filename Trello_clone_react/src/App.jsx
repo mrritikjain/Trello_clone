@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <div className="flex">
+      <div className="flex h-[calc(100vh-3rem)]">
         <Sidebar />
         <Main />
       </div>
